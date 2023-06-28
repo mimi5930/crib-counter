@@ -16,4 +16,12 @@ function createHand(suits, values, amount) {
   return fakeHand;
 }
 
+const sampleHand = [
+  ['d', '4'],
+  ['d', '5'],
+  ['d', '6'],
+  ['d', 'k'],
+  ['d', 'q', 's']
+];
+
 console.log(hand);
