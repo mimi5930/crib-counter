@@ -1,5 +1,13 @@
 // Each combination that adds up to 15 is worth 2 points (no matter how many cards are involved).
 export function checkSums(hand) {
+  // create array of numbers
+  let handNumbers = [];
+  for (let i = 0; i < hand.length; i++) {
+    handNumbers.push(hand[i][1]);
+  }
+  console.log(handNumbers);
+  // convert strings into numbers
+
   return 0;
 }
 // Each pair is worth 2 points
